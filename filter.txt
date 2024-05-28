@@ -1,0 +1,12 @@
+! Roblox clean up - Only Favorites and Continue, no Sponsored or Recommended For You on home feed.
+roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(4)
+roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(8)
+roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(7) > div
+roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(9)
+roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(12)
+
+! Roblox clean up - Discover's Sponsored segment location. We know where it is, but uBlock cannot delete it.
+! You have to scroll down for it to appear, and unfortunately, it doesn't seem possible.
+! I've included the xPath.
+roblox.com##body > div:nth-of-type(3) > main > div:nth-of-type(2) > div > div > div:nth-of-type(9)
+/html/body/div[3]/main/div[2]/div/div/div[9]
