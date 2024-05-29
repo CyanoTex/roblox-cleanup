@@ -1,9 +1,9 @@
 ! Roblox clean up - Only Favorites and Continue, no Sponsored or Recommended For You on home feed.
-roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(4)
-roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(8)
-roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(7) > div
-roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(9)
-roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(12)
+www.roblox.com##html > body > div:nth-of-type(3) > main > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div:nth-of-type(4)
+www.roblox.com##html > body > div:nth-of-type(3) > main > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div:nth-of-type(6)
+www.roblox.com##html > body > div:nth-of-type(3) > main > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div:nth-of-type(5) > div
+www.roblox.com##div:nth-of-type(7)
+www.roblox.com##div:nth-of-type(10)
 
 ! Roblox clean up - Discover's Sponsored segment location. I know where it is, but uBlock cannot delete it.
 ! You have to scroll down for it to appear, and unfortunately, it doesn't seem possible.
@@ -13,6 +13,3 @@ roblox.com##div:nth-of-type(4) > div > div > div:nth-of-type(12)
 
 ! Roblox clean up - No recommended games when viewing a game's page. Frankly... the quality of games nowadays is very dubious.
 roblox.com## #recommended-games-container
-
-! Roblox clean up - Subscriptions were a mistake. Gets rid of Discover's Subscription Exclusive Benefits.
-roblox.com## #games-carousel-page > div > div:nth-child(5)
